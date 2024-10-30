@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .section-title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .section-subtitle {
+            text-align: center;
+            color: #777;
+            margin-bottom: 40px;
+        }
+        .icon-box {
+            text-align: center;
+            padding: 20px;
+        }
+        .icon-box i {
+            font-size: 40px;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="favicon-32x32.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link btn btn-dark text-white" href="#">Iniciar sesión</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExample" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-center align-items-center" style="height: 300px; background-color: #f0f0f0;">
+                    <a href="https://ildu.com.ua/"><img src="banner_1.png" alt="Image 1"></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center align-items-center" style="height: 300px; background-color: #f0f0f0;">
+                    <a href="https://www.monsterenergy.com/es-es/"><img src="banner_2.png" alt="Image 2"></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center align-items-center" style="height: 300px; background-color: #f0f0f0;">
+                    <a href="https://mcdonalds.es/familias/happy-meal?gad_source=1&gclid=Cj0KCQjwsoe5BhDiARIsAOXVoUu-xDymd0t_PUcVSvDxMgrfst2ZJAQ2NyV7Iy6IOQBoW1Eg39fuwI8aAk1lEALw_wcB&gclsrc=aw.ds"><img src="banner_3.png" alt="Image 2"></a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <section>
+        <div class="container text-center">
+            <h2 class="section-title">TITULO 2</h2>
+            <p class="section-subtitle">Establish trust with your customers by reassuring them that the process is quick, simple, and lucrative.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="icon-box">
+                        <h4>01</h4>
+                        <h5>Subtitulo</h5>
+                        <p>Tell users how they can quickly join and become partners.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-box">
+                        <h4>02</h4>
+                        <h5>Subtitulo</h5>
+                        <p>Show how they can easily fit referrals into their regular context.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-box">
+                        <h4>03</h4>
+                        <h5>Subtitulo</h5>
+                        <p>Describe the impact an affiliate partnership can have on their overall income.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container text-center">
+            <h2 class="section-title">TITULO 2</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="icon-box">
+                        <i class="fas fa-thumbs-up"></i>
+                        <h5>Subtitulo 1</h5>
+                        <p>Use this space to describe one benefit of your affiliate program.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-box">
+                        <i class="fas fa-chart-line"></i>
+                        <h5>Subtitulo 2</h5>
+                        <p>Use this space to describe one benefit of your affiliate program.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-box">
+                        <i class="fas fa-coins"></i>
+                        <h5>Subtitulo 3</h5>
+                        <p>Use this space to describe one benefit of your affiliate program.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
